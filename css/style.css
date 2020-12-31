@@ -13,6 +13,16 @@ body {
   margin: 40px;
   padding: 50px; }
 
+.row {
+  display: flex;
+  margin: 20px;
+  padding: 20px;
+  padding-left: 10%; }
+
+.segundo {
+  margin-top: 800px;
+  color: black; }
+
 video {
   display: flex;
   align-items: center;
@@ -63,11 +73,14 @@ video {
   right: 150px;
   bottom: -600px; }
 
-.redes {
+.flex-container {
   display: flex;
-  position: absolute;
+  flex-direction: column;
+  justify-content: center;
+  color: blanchedalmond;
+  align-items: center;
   background-color: rgba(0, 0, 0, 0.5);
-  flex-flow: column-wrap; }
+  width: 100%; }
 
 .inline-photo {
   border: 1em solid #fff;
