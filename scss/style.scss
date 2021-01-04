@@ -48,14 +48,33 @@ video {
         // font-size: 4rem;
     }
     @include breakpoint(1000px) {
-        background: palegoldenrod;
+        background: rgb(220, 238, 170);
         // font-size: 20px;
         color: black;
+        #montaña {
+            padding-left: 50px;
+        }
+        #bici {
+            // padding-left: 100px;
+            right: 50px;
+            top: 50px;
+        }
     }
     @include breakpoint(600px) {
         background: wheat;
         color: black;
         // font-size: 10px;
+        #montaña {
+            padding-left: 50px;
+        }
+        #bici {
+            // padding-left: 100px;
+            right: 50px;
+            top: 50px;
+        }
+        .flex-container {
+            // width: 90%;
+        }
     }
 }
 

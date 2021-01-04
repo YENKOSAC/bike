@@ -42,12 +42,22 @@ video {
       background: green; } }
   @media screen and (max-width: 1000px) {
     .container {
-      background: palegoldenrod;
-      color: black; } }
+      background: #dceeaa;
+      color: black; }
+      .container #montaña {
+        padding-left: 50px; }
+      .container #bici {
+        right: 50px;
+        top: 50px; } }
   @media screen and (max-width: 600px) {
     .container {
       background: wheat;
-      color: black; } }
+      color: black; }
+      .container #montaña {
+        padding-left: 50px; }
+      .container #bici {
+        right: 50px;
+        top: 50px; } }
 
 .child {
   display: flex;
