@@ -66,6 +66,18 @@ video {
   z-index: 10;
   padding: 20px; }
 
+#primeras-fotos {
+  display: flex;
+  padding: 20px;
+  margin: 50px;
+  background: burlywood;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  width: 80%;
+  border-radius: 10px;
+  border: black solid 2px; }
+
 #montaña {
   display: flex;
   align-items: center;
