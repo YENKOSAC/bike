@@ -70,13 +70,25 @@ video {
   display: flex;
   padding: 20px;
   margin: 50px;
-  background: burlywood;
+  background: white;
   align-items: center;
   justify-content: center;
   align-content: center;
   width: 80%;
   border-radius: 10px;
   border: black solid 2px; }
+  @media screen and (max-width: 1550px) {
+    #primeras-fotos {
+      background: white;
+      width: 85%; } }
+  @media screen and (max-width: 1000px) {
+    #primeras-fotos {
+      background: white;
+      width: 70%; } }
+
+@media screen and (max-width: 600px) {
+  background: white;
+  width: 50%; }
 
 #montaña {
   display: flex;
