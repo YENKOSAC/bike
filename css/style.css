@@ -2,10 +2,13 @@
 header {
   display: flex;
   text-align: left;
-  align-items: left;
-  background: #d7d7ff;
-  padding: 20px;
-  margin-bottom: 50px; }
+  align-items: center;
+  background: black;
+  padding-left: 100px;
+  margin-bottom: 200px;
+  padding: 0 auto;
+  margin-left: 200px;
+  color: blanchedalmond; }
 
 body {
   background: black;
@@ -39,7 +42,7 @@ video {
   color: blue; }
   @media screen and (max-width: 1550px) {
     .container {
-      background: green; } }
+      background: honeydew; } }
   @media screen and (max-width: 1000px) {
     .container {
       background: #dceeaa;
@@ -69,43 +72,41 @@ video {
 #primeras-fotos {
   display: flex;
   padding: 20px;
-  margin: 50px;
+  margin: 0 auto;
+  margin-bottom: 20px;
   background: white;
   align-items: center;
   justify-content: center;
   align-content: center;
-  width: 80%;
   border-radius: 10px;
   border: black solid 2px; }
   @media screen and (max-width: 1550px) {
     #primeras-fotos {
       background: white;
-      width: 85%; } }
+      width: 100%; } }
   @media screen and (max-width: 1000px) {
     #primeras-fotos {
       background: white;
-      width: 71%; } }
+      width: 80%; } }
 
 @media screen and (max-width: 600px) {
   background: white;
-  width: 50%; }
+  width: 200%; }
 
 #montaña {
   display: flex;
   align-items: center;
-  width: 70%;
+  width: 40%;
   height: auto;
   position: absolute;
-  margin-top: 12rem; }
+  left: -100px; }
 
 #bici {
   position: absolute;
   align-items: center;
-  width: 70%;
+  width: 30%;
   height: auto;
-  margin-top: 12rem;
-  right: 150px;
-  bottom: -600px; }
+  left: -40px; }
 
 .flex-container {
   display: flex;
