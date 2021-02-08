@@ -60,28 +60,28 @@
 
 
 
-// var nombre = prompt("cual es tu nombre?")
+var nombre = prompt("cual es tu nombre?")
 
-// if (nombre === "jean" || nombre === "jean romero" || nombre === "jean romero lay" || nombre === "peu") {
-//     alert("Hola hermanito peu")
+if (nombre === "jean" || nombre === "jean romero" || nombre === "jean romero lay" || nombre === "peu") {
+    alert("Hola hermanito peu")
 
-// } else if (nombre === "yami" || nombre === "yamiux") {
-//     alert("Hola cuñadita")
+} else if (nombre === "yami" || nombre === "yamiux") {
+    alert("Hola cuñadita")
 
-// } else if (nombre === "angelica" || nombre === "maria") {
-//     alert("Hola mamita")
+} else if (nombre === "angelica" || nombre === "maria") {
+    alert("Hola mamita")
 
-// } else {
-//     alert("Que raro a ti no te conozco")
-// }
+} else {
+    alert("Que raro a ti no te conozco")
+}
 
-// var permiso = prompt("No te vas a burlar de mi poco conocimiento de programación?")
-// if (permiso === "si") {
-//     alert("Entonces te dejare mirar")
+var permiso = prompt("No te vas a burlar de mi poco conocimiento de programación?")
+if (permiso === "si") {
+    alert("Entonces te dejare mirar")
 
-// } else if (permiso === "no") {
-//     alert("Entonces igual te mostrare")
+} else if (permiso === "no") {
+    alert("Entonces igual te mostrare")
 
-// } else {
-//     alert("Igual te iba a mostrar")
-// }
+} else {
+    alert("Igual te iba a mostrar")
+}
