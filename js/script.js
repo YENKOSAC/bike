@@ -63,7 +63,7 @@
 var nombre = prompt("cual es tu nombre?")
 
 if (nombre === "jean" || nombre === "jean romero" || nombre === "jean romero lay" || nombre === "peu") {
-    alert("Hola hermanito peu")
+    alert("Hola hermanito peuuu")
 
 } else if (nombre === "yami" || nombre === "yamiux") {
     alert("Hola cuñadita")
